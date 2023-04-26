@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_troika.mk
+    $(LOCAL_DIR)/aosp_troika.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_troika-user \
