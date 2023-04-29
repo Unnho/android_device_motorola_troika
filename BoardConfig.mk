@@ -19,6 +19,9 @@ include device/motorola/exynos9610-common/BoardConfigCommon.mk
 ## Inherit from the proprietary configuration
 include vendor/motorola/troika/BoardConfigVendor.mk
 
+## Allow Missing Dependencies
+ALLOW_MISSING_DEPENDENCIS := true
+
 DEVICE_PATH := device/motorola/troika
 
 ## Assert
