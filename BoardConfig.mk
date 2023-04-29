@@ -32,4 +32,6 @@ TARGET_KERNEL_CONFIG := troika_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+## Important
 ALLOW_MISSIMG_DEPENDENCIES=true
